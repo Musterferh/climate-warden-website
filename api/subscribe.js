@@ -1,7 +1,7 @@
-import { Resend } from 'resend';
+const { Resend } = require('resend');
 
 // Vercel Serverless Function for Newsletter Subscription
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
     // Only allow POST requests (form submissions)
     if (req.method !== 'POST') {
         return res.status(405).json({ success: false, error: 'Method Not Allowed' });
