@@ -211,47 +211,12 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ── Newsletter Form ── */
   const nf = document.getElementById('newsletterForm');
   if (nf) {
-    nf.addEventListener('submit', async e => {
+    nf.addEventListener('submit', e => {
       e.preventDefault();
       const btn = nf.querySelector('button');
-      const emailInput = nf.querySelector('input[type="email"]');
-      const email = emailInput.value;
-      const origText = btn.textContent;
-
-      btn.textContent = 'Subscribing...';
+      btn.textContent = ' Subscribed!';
       btn.disabled = true;
-
-      try {
-        // Vercel automatically creates this route for any file in the /api folder
-        const res = await fetch('/api/subscribe', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email })
-        });
-
-        const data = await res.json();
-
-        if (data.success) {
-          btn.textContent = ' Subscribed!';
-          btn.style.background = '#00e676';
-          btn.style.color = '#060f0a';
-          setTimeout(() => {
-            btn.textContent = origText;
-            btn.disabled = false;
-            btn.style.background = '';
-            btn.style.color = '';
-            nf.reset();
-          }, 4500);
-        } else {
-          btn.textContent = ' Error :(';
-          btn.disabled = false;
-          setTimeout(() => btn.textContent = origText, 3000);
-        }
-      } catch (err) {
-        btn.textContent = ' Connection Error';
-        btn.disabled = false;
-        setTimeout(() => btn.textContent = origText, 3000);
-      }
+      setTimeout(() => { btn.textContent = 'Subscribe'; btn.disabled = false; nf.reset(); }, 3500);
     });
   }
 
