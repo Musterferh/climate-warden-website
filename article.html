@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Article — Climate Warden</title>
+    <meta name="description" content="Climate Warden news article." />
+    <link rel="icon" href="images/logo.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar" role="banner">
+        <div class="container">
+            <nav class="nav-inner">
+                <a href="index.html" class="nav-logo">
+                    <img src="images/logo.jpeg" alt="Climate Warden Logo" class="logo-img" />
+                    <div class="logo-wordmark">Climate Warden<em>Bauchi State, Nigeria</em></div>
+                </a>
+                <ul class="nav-links" role="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="nav-dropdown">
+                        <button class="nav-dropdown-btn active" aria-expanded="false" aria-haspopup="true">Resources
+                            <svg class="dropdown-caret" viewBox="0 0 24 24" width="14" height="14" fill="none"
+                                stroke="currentColor" stroke-width="2.5">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="news.html" class="active" role="menuitem">News</a></li>
+                            <li><a href="publications.html" role="menuitem">Publications</a></li>
+                            <li><a href="videos.html" role="menuitem">Videos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="impact.html">Impact</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                    <li><a href="contact.html" class="btn btn-neon">Contact Us</a></li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            </nav>
+            <div class="mobile-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="news.html" class="active">News</a>
+                <a href="publications.html">Publications</a>
+                <a href="videos.html">Videos</a>
+                <a href="programs.html">Programs</a>
+                <a href="impact.html">Impact</a>
+                <a href="get-involved.html">Get Involved</a>
+                <a href="contact.html" class="btn btn-neon">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article content is injected here by articles.js -->
+    <div id="article-root"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <img src="images/logo.jpeg" alt="Climate Warden Logo" class="logo-img" />
+                        <div class="logo-wordmark">Climate Warden<em>Bauchi State, Nigeria</em></div>
+                    </a>
+                    <p>A youth-led climate initiative building the next generation of environmental leaders across
+                        Bauchi State, Nigeria.</p>
+                </div>
+                <nav class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a><a href="about.html">About Us</a>
+                    <a href="programs.html">Programs</a><a href="impact.html">Our Impact</a>
+                    <a href="get-involved.html">Get Involved</a><a href="contact.html">Contact</a>
+                </nav>
+                <nav class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="news.html">News</a>
+                    <a href="publications.html">Publications</a>
+                    <a href="videos.html">Videos</a>
+                </nav>
+                <div class="footer-col">
+                    <h4>Stay Updated</h4>
+                    <p style="font-size:.82rem;color:var(--text-muted);margin-bottom:0">Get program updates &amp;
+                        climate news.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> 2024 Climate Warden. All rights reserved.</p>
+                <p>Powered by <strong style="color:var(--green-neon)">Zahus Multi-Tech</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/articles.js"></script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
