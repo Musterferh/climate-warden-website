@@ -1,5 +1,5 @@
 /* ============================================================
-   CLIMATE WARDEN — articles.js
+   AFRICAN INSTITUTE FOR STRATEGIC GOVERNANCE AND POLICY RESEARCH — articles.js
    All news articles data + dynamic renderer for article.html
    ============================================================ */
 
