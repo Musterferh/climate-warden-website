@@ -129,6 +129,25 @@ const ARTICLES = [
       <p>Founded by Mustapha Muhammad Ali, Climate Warden was born from a vision to protect Nigerian communities from the escalating threats of climate change, specifically focusing on rising urban temperatures and deforestation.</p>
       <h2>The Road Ahead</h2>
       <p>The launch marks the day we put shovels in the ground," said Mustapha during the opening remarks. "Climate Warden is not just about awareness; it is about building a team of 'Guardians' who are equipped to protect and restore our local ecosystems.".</p>`
+  },
+  {
+    id: 8,
+    category: 'Retreat',
+    title: 'Climate Warden Retreat 1.0 Successfully Concluded in Bauchi',
+    date: 'May 10, 2026',
+    author: 'Climate Warden Team',
+    readTime: '4 min read',
+    image: 'images/retreat.jpg',
+    imageCaption: 'Climate Warden Retreat 1.0: The Climate Bridge Retreat – From Global Policy to Local Action',
+    body: `
+      <p>On May 10th, 2026, Climate Warden successfully hosted Climate Warden Retreat 1.0: <em>The Climate Bridge Retreat – From Global Policy to Local Action</em> at Nixxo Studios, HD Plaza, Ahmadu Bello Way, Bauchi, Bauchi State.</p>
+      <p>The retreat brought together young climate leaders, students, advocates, and community voices for a day of learning, collaboration, networking, and action-driven dialogue.</p>
+      <h2>Connecting Global Conversations with Local Realities</h2>
+      <p>The retreat focused on connecting global climate conversations with practical local realities and community-driven solutions. Through interactive sessions, networking discussions, reflection activities, and implementation-focused conversations, participants explored the role of youth leadership, climate education, sustainability, and grassroots action in addressing climate challenges.</p>
+      <p>The retreat also created space for participants to share experiences, discuss local environmental issues affecting their communities, and develop ideas for stronger collaboration and climate action initiatives.</p>
+      <p>Climate Warden appreciates all speakers, guests, organizing committee members, volunteers, and participants who contributed to making the retreat impactful and inspiring.</p>
+      <p>The organization remains committed to empowering young people and communities through climate education, environmental action, and locally driven solutions across Bauchi State and beyond.</p>
+      `
   }
 ];
 
