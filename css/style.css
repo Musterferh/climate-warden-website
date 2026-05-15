@@ -3478,9 +3478,4 @@ section {
         height: auto !important;
         object-fit: contain !important;
     }
-
-    /* Add gap between hero meta text and the image below it */
-    #article-root > div.container {
-        margin-top: 24px !important;
-    }
 }
