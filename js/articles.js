@@ -156,7 +156,7 @@ const ARTICLES = [
     date: 'July 11, 2026',
     author: 'Climate Warden Team',
     readTime: '3 min read',
-    image: 'images/sucess.jpg',
+    image: 'images/SEC.jpg',
     imageCaption: 'Climate Warden Partners with SEC Students\' Conservation Club for Environmental Sanitation Campaign.',
     body: `
       <p>Climate Warden proudly partnered with the SEC Students' Conservation Club, Sa'adu Zungur University, Gadau, to support their Environmental Sanitation Campaign, reaffirming our commitment to youth-led climate action and environmental sustainability.</p>
