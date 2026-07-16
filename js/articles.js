@@ -148,6 +148,32 @@ const ARTICLES = [
       <p>Climate Warden appreciates all speakers, guests, organizing committee members, volunteers, and participants who contributed to making the retreat impactful and inspiring.</p>
       <p>The organization remains committed to empowering young people and communities through climate education, environmental action, and locally driven solutions across Bauchi State and beyond.</p>
       `
+  },
+  {
+    id: 9,
+    category: 'Campaign',
+    title: 'Climate Warden Partners with SEC Students\' Conservation Club for Environmental Sanitation Campaign at Sa\'adu Zungur University, Gadau',
+    date: 'July 11, 2026',
+    author: 'Climate Warden Team',
+    readTime: '3 min read',
+    image: 'images/sucess.jpg',
+    imageCaption: 'Climate Warden Partners with SEC Students\' Conservation Club for Environmental Sanitation Campaign.',
+    body: `
+      <p>Climate Warden proudly partnered with the SEC Students' Conservation Club, Sa'adu Zungur University, Gadau, to support their Environmental Sanitation Campaign, reaffirming our commitment to youth-led climate action and environmental sustainability.</p>
+      <p>As part of the collaboration, the Climate Warden team traveled to Gadau and supported the campaign by providing gloves, face masks, and waste collection bags. Our volunteers worked alongside the university management, club members, and students throughout the exercise.</p>
+      <h2>Impactful Activities</h2>
+      <p>The campaign featured a range of impactful activities, including:</p>
+      <ul>
+        <li>Campus and hostel clean-up exercises</li>
+        <li>Tree-planting activities across the university</li>
+        <li>Environmental awareness and community engagement</li>
+        <li>Promotion of responsible waste management and environmental stewardship</li>
+      </ul>
+      <p>The initiative demonstrated the power of collaboration between student organizations and civil society in creating cleaner, healthier, and more sustainable learning environments. It also encouraged students to take an active role in protecting the environment and promoting climate action within their communities.</p>
+      <p>Climate Warden extends its sincere appreciation to the SEC Students' Conservation Club, the management of Sa'adu Zungur University, Gadau, and every student and volunteer who contributed to the success of the campaign.</p>
+      <p>We remain committed to supporting youth-led initiatives, strengthening partnerships, and empowering communities to take meaningful action toward a greener and more climate-resilient future.</p>
+      <p>Together, we are turning local action into lasting environmental impact.</p>
+    `
   }
 ];
 
