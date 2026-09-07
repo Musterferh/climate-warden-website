@@ -503,6 +503,42 @@ section {
     font-size: 1rem
 }
 
+/* ── Nav Support Button ── */
+.btn-nav-donate {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: var(--radius-full);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: .84rem;
+    color: var(--green-neon) !important;
+    background: rgba(0, 230, 118, .08);
+    border: 1.5px solid rgba(0, 230, 118, .35);
+    transition: all .25s var(--ease-smooth);
+    text-decoration: none;
+    line-height: 1;
+}
+
+.btn-nav-donate:hover {
+    background: var(--green-neon);
+    color: #060f0a !important;
+    border-color: var(--green-neon);
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(0, 230, 118, .4);
+}
+
+.mobile-nav .btn-nav-donate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    margin: 8px 0;
+    font-size: .92rem;
+    background: rgba(0, 230, 118, .1);
+}
+
 /* ── Navbar ──────────────────────────────────────────────────── */
 .navbar {
     position: fixed;

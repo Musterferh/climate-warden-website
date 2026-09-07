@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,22 +14,22 @@
         content="volunteer Bauchi State, climate NGO partnership, student sustainability club, get involved climate action Nigeria" />
     <meta name="author" content="Climate Warden" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://aisgpr.org/get-involved.html" />
+    <link rel="canonical" href="https://climatewarden.org/get-involved.html" />
 
     <!-- Open Graph / Social Media Sharing -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Get Involved — Climate Warden" />
     <meta property="og:description"
         content="Join the movement as a student, school, or partner. Apply now to make a difference." />
-    <meta property="og:image" content="https://aisgpr.org/images/logo.jpeg" />
-    <meta property="og:url" content="https://aisgpr.org/get-involved.html" />
+    <meta property="og:image" content="https://climatewarden.org/images/logo.jpeg" />
+    <meta property="og:url" content="https://climatewarden.org/get-involved.html" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Get Involved — Climate Warden" />
     <meta name="twitter:description"
         content="Join the movement as a student, school, or partner. Apply now to make a difference." />
-    <meta name="twitter:image" content="https://aisgpr.org/images/logo.jpeg" />
+    <meta name="twitter:image" content="https://climatewarden.org/images/logo.jpeg" />
     <link rel="icon" href="images/logo.jpeg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -312,6 +312,146 @@
             color: var(--text-secondary);
             font-size: .9rem;
         }
+
+        /* Bank Transfer & Support Card */
+        .bank-card {
+            background: linear-gradient(145deg, rgba(8, 28, 16, 0.95), rgba(4, 15, 8, 0.98));
+            border: 1.5px solid var(--green-border);
+            border-radius: var(--radius-lg);
+            padding: 36px 32px;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 230, 118, 0.12);
+            position: sticky;
+            top: 90px;
+        }
+
+        .bank-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0, 230, 118, 0.15);
+            border: 1px solid var(--green-border);
+            color: var(--green-neon);
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 6px 14px;
+            border-radius: var(--radius-full);
+            margin-bottom: 20px;
+        }
+
+        .bank-field {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-subtle);
+            border-radius: 14px;
+            padding: 16px 20px;
+            margin-bottom: 14px;
+            transition: all 0.25s;
+        }
+
+        .bank-field:hover {
+            border-color: rgba(0, 230, 118, 0.35);
+            background: rgba(0, 230, 118, 0.04);
+        }
+
+        .bank-field-label {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .bank-field-val {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            word-break: break-word;
+        }
+
+        .bank-acct-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .bank-acct-num {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.6rem;
+            font-weight: 800;
+            letter-spacing: 2.5px;
+            color: var(--green-neon);
+            text-shadow: 0 0 20px rgba(0, 230, 118, 0.35);
+        }
+
+        .btn-copy-acct {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--green-neon);
+            color: #040c07;
+            border: none;
+            border-radius: var(--radius-full);
+            padding: 10px 18px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.86rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.25s;
+        }
+
+        .btn-copy-acct:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 24px rgba(0, 230, 118, 0.4);
+        }
+
+        .btn-copy-acct.copied {
+            background: #22c55e;
+            color: #ffffff;
+        }
+
+        .bank-note-box {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px dashed rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .btn-wa-confirm {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            background: #25D366;
+            color: #ffffff;
+            border-radius: var(--radius-full);
+            padding: 15px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.25s;
+            box-shadow: 0 8px 24px rgba(37, 211, 102, 0.25);
+        }
+
+        .btn-wa-confirm:hover {
+            background: #20ba59;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(37, 211, 102, 0.4);
+            color: #ffffff;
+        }
     </style>
 </head>
 
@@ -358,6 +498,7 @@
                     <li><a href="programs.html">Programs</a></li>
                     <li><a href="impact.html">Impact</a></li>
                     <li><a href="get-involved.html" class="active">Get Involved</a></li>
+                    <li><a href="#donate" onclick="document.getElementById('tab-donate')?.click()" class="btn-nav-donate"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:4px;vertical-align:-2px"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>Support Us</a></li>
                     <li><a href="contact.html" class="btn btn-neon">Contact Us</a></li>
                 </ul>
                 <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
@@ -371,6 +512,7 @@
                 <a href="programs.html">Programs</a>
                 <a href="impact.html">Impact</a>
                 <a href="get-involved.html" class="active">Get Involved</a>
+                <a href="#donate" onclick="document.getElementById('tab-donate')?.click()" class="btn-nav-donate"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:4px;vertical-align:-2px"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>Support Us</a>
                 <a href="contact.html" class="btn btn-neon">Contact Us</a>
             </div>
         </div>
@@ -400,6 +542,10 @@
                     <button class="gi-tab" data-panel="schools" role="tab" id="tab-schools"> For Schools</button>
                     <button class="gi-tab" data-panel="partners" role="tab" id="tab-partners"> For Partners &amp;
                         NGOs</button>
+                    <button class="gi-tab" data-panel="donate" role="tab" id="tab-donate">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:2px"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+                        Support &amp; Donate
+                    </button>
                 </div>
 
                 <!-- ════════════════════════════════════════════════ -->
@@ -823,6 +969,124 @@
                     </div>
                 </div>
 
+                <!-- ════════════════════════════════════════════════ -->
+                <!-- PANEL 4: SUPPORT & DONATE -->
+                <!-- ════════════════════════════════════════════════ -->
+                <div class="gi-panel" id="panel-donate" role="tabpanel">
+                    <div class="gi-layout">
+                        <!-- Left Info: Impact & Purpose -->
+                        <div class="gi-info reveal-left">
+                            <span class="chip"> Direct Community Support</span>
+                            <h3>Fund Grassroots Climate Action</h3>
+                            <p>Every single contribution directly finances indigenous tree saplings, school sustainability club kits, and practical environmental education workshops across Bauchi State, Nigeria.</p>
+
+                            <div class="gi-option">
+                                <div class="gi-opt-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--green-neon)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 22v-9M12 13c0-3.5 3-6.5 7-7-1 4-3.5 7-7 7ZM12 13c0-3.5-3-6.5-7-7 1 4 3.5 7 7 7Z" />
+                                    </svg>
+                                </div>
+                                <div class="gi-opt-body">
+                                    <h4>Plant Indigenous Shade Trees</h4>
+                                    <p>Funds hardy, drought-resilient trees with protective bamboo tree guards for local primary and secondary school campuses across Bauchi.</p>
+                                </div>
+                            </div>
+
+                            <div class="gi-option">
+                                <div class="gi-opt-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--green-neon)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                    </svg>
+                                </div>
+                                <div class="gi-opt-body">
+                                    <h4>Sponsor Student Warden Kits</h4>
+                                    <p>Equips active student club leaders with environmental handbooks, official Warden lapel pins, and field observation diaries.</p>
+                                </div>
+                            </div>
+
+                            <div class="gi-option">
+                                <div class="gi-opt-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--green-neon)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="7 23 3 19 7 15"></polyline>
+                                        <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+                                        <polyline points="17 1 21 5 17 9"></polyline>
+                                        <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                                    </svg>
+                                </div>
+                                <div class="gi-opt-body">
+                                    <h4>Provide Campus Waste Sorting Bins</h4>
+                                    <p>Installs color-coded recycling and waste sorting bins to eliminate campus litter and teach responsible waste segregation.</p>
+                                </div>
+                            </div>
+
+                            <div class="gi-option">
+                                <div class="gi-opt-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--green-neon)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                    </svg>
+                                </div>
+                                <div class="gi-opt-body">
+                                    <h4>Support School Climate Workshops</h4>
+                                    <p>Covers learning materials, educator facilitation, seedling transport, and certificates for full school-wide climate education sessions.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Card: Official Bank Details -->
+                        <div class="reveal-right">
+                            <div class="bank-card">
+                                <div class="bank-badge">
+                                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                    Official NGO Bank Account
+                                </div>
+
+                                <div class="bank-field">
+                                    <div class="bank-field-label">Bank Name</div>
+                                    <div class="bank-field-val" style="display:flex;align-items:center;gap:8px">
+                                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--green-neon)" stroke-width="2"><path d="M3 21h18M3 10h18M5 10v11M9 10v11M15 10v11M19 10v11M12 2L2 7h20L12 2z"/></svg>
+                                        Nombank MFB
+                                    </div>
+                                </div>
+
+                                <div class="bank-field">
+                                    <div class="bank-field-label">Account Number</div>
+                                    <div class="bank-acct-row">
+                                        <span class="bank-acct-num">5020587737</span>
+                                        <button type="button" class="btn-copy-acct" id="copyAcctBtn" onclick="copyAccountNumber('5020587737')">
+                                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                            Copy Number
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="bank-field">
+                                    <div class="bank-field-label">Account Name</div>
+                                    <div class="bank-field-val" style="font-size:0.96rem;line-height:1.5">
+                                        CLIMATE WARDEN FOR EMPOWERMENT AWARENESS INITIATIVE
+                                    </div>
+                                </div>
+
+                                <div class="bank-note-box">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="var(--green-neon)" stroke-width="2" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                    <span><strong>Transfer Narration:</strong> Please include your name or "Donation" as the transaction reference.</span>
+                                </div>
+
+                                <a href="https://wa.me/2347038154504?text=Hello%20Climate%20Warden%2C%20I%20just%20supported%20your%20work%20with%20a%20donation!%20My%20name%20is%20" target="_blank" rel="noopener noreferrer" class="btn-wa-confirm">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" /></svg>
+                                    Notify Us on WhatsApp (Optional)
+                                </a>
+
+                                <p style="text-align:center;font-size:0.75rem;color:rgba(255,255,255,0.5);margin-top:10px;margin-bottom:0">
+                                    Optional — let us know so we can send our sincere gratitude &amp; official receipt
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -890,7 +1154,7 @@
                 <nav class="footer-col">
                     <h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About Us</a><a
                         href="programs.html">Programs</a><a href="impact.html">Impact</a><a href="get-involved.html">Get
-                        Involved</a><a href="contact.html">Contact</a>
+                        Involved</a><a href="#donate" onclick="document.getElementById('tab-donate')?.click()">Support &amp; Donate</a><a href="contact.html">Contact</a>
                 </nav>
                 <nav class="footer-col">
                     <h4>Programs</h4><a href="programs.html#education">School Education</a><a
@@ -898,12 +1162,12 @@
                         Training</a><a href="programs.html#campaigns">Campaigns</a>
                 </nav>
                 <div class="footer-col">
-                    <h4>Contact</h4><a href="mailto:info@aisgpr.ng">info@aisgpr.ng</a><a
-                        href="https://wa.me/2348012345678">WhatsApp Us</a>
+                    <h4>Contact</h4><a href="mailto:climatewarden@gmail.com">climatewarden@gmail.com</a><a
+                        href="https://wa.me/2347038154504">WhatsApp Us</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p> 2024 Climate Warden. All rights reserved.</p>
+                <p>&copy; 2026 Climate Warden. All rights reserved.</p>
                 <p>Powered by <strong style="color:var(--green-neon)">Zahus Multi-Tech</strong></p>
             </div>
         </div>
@@ -996,6 +1260,49 @@
         document.getElementById('form-student').addEventListener('submit', e => { e.preventDefault(); handleSubmit(e.target, 'btn-student'); });
         document.getElementById('form-school').addEventListener('submit', e => { e.preventDefault(); handleSubmit(e.target, 'btn-school'); });
         document.getElementById('form-partner').addEventListener('submit', e => { e.preventDefault(); handleSubmit(e.target, 'btn-partner'); });
+
+        /* ── Copy Account Number Helper ── */
+        function copyAccountNumber(acct) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(acct).then(() => {
+                    updateCopyBtn();
+                }).catch(() => fallbackCopy(acct));
+            } else {
+                fallbackCopy(acct);
+            }
+        }
+
+        function fallbackCopy(acct) {
+            const temp = document.createElement('input');
+            temp.value = acct;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+            updateCopyBtn();
+        }
+
+        function updateCopyBtn() {
+            const btn = document.getElementById('copyAcctBtn');
+            if (btn) {
+                btn.classList.add('copied');
+                btn.innerHTML = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Copied!`;
+                setTimeout(() => {
+                    btn.classList.remove('copied');
+                    btn.innerHTML = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy Number`;
+                }, 3000);
+            }
+            showToast('Account number copied: 5020587737');
+        }
+
+        /* ── Auto-open Support & Donate if URL has #donate ── */
+        if (window.location.hash === '#donate') {
+            const donateTab = document.getElementById('tab-donate');
+            if (donateTab) {
+                donateTab.click();
+                donateTab.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
     </script>
 </body>
 
